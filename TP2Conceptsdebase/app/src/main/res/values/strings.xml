@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Compte</string>
-    <string name="email">E-Mail</string>
-    <string name="password">Password</string>
+    <string name="username">Nom d\'utilisateur</string>
+    <string name="password">Mot de passe</string>
     <string name="fab_content_desc">+</string>
+    <string name="login">s\'authentifier</string>
+    <string name="welcome">BIENVENU</string>
+    <string name="informations">Les informations de votre compte </string>
+    <string name="cancel">Quitter </string>
 </resources>

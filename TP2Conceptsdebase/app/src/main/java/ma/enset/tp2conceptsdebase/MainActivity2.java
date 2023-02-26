@@ -35,7 +35,7 @@ public class MainActivity2 extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity2.this, MainActivity.class);
 
                 // Effacez les champs de mail et de mot de passe
-                EditText mail = findViewById(R.id.textEmail);
+                EditText mail = findViewById(R.id.textUsername);
                 EditText password = findViewById(R.id.textPassword);
                 mail.setText("");
                 password.setText("");

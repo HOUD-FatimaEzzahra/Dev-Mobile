@@ -14,7 +14,7 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="140dp"
-            android:text="BIENVENU"
+            android:text="@string/welcome"
             android:textAlignment="center"
             android:textColor="@color/Tea_clair"
             android:textSize="30sp" />
@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="95dp"
             android:inputType="none|textNoSuggestions"
-            android:text="Les informations de votre compte "
+            android:text="@string/informations"
             android:textAlignment="center"
             android:textColor="@color/Tea"
             android:textSize="20sp" />
@@ -41,7 +41,7 @@
             android:id="@+id/email_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="E-mail                 :  "
+            android:text="@string/username   "
             android:textSize="20sp"
             android:textColor="@color/gris"/>
 
@@ -70,7 +70,7 @@
             android:id="@+id/password_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Mot de passe   :  "
+            android:text="@string/password   "
             android:textColor="@color/gris"
             android:textSize="20sp" />
 
@@ -98,7 +98,7 @@
             android:layout_width="164dp"
             android:layout_height="wrap_content"
             android:background="@drawable/buttonshape"
-            android:text="Quitter"
+            android:text="@string/cancel"
             android:textColor="@color/white"
             android:textSize="18sp" />
 

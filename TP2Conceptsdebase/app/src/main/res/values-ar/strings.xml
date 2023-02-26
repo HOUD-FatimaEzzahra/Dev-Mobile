@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">حساب</string>
+    <string name="username">رمز المستخدم</string>
+    <string name="password">كلمة المرور</string>
+    <string name="fab_content_desc">+</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="welcome">مرحبا</string>
+    <string name="informations">معلومات حسابك</string>
+    <string name="cancel">الغاء</string>
+</resources>
