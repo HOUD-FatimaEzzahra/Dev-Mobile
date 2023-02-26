@@ -2,13 +2,13 @@
 Ce dépôt GitHub contient les exercices que j'ai réalisés dans le cadre du module Développement Mobile.
 
 ## Exercices et Tps
-Exercice 1 : Somme de deux nombres
+[Exercice 1 : Somme de deux nombres](https://github.com/HOUD-FatimaEzzahra/Dev-Mobile/tree/main/Exercice1-SommeDeuxNombres)
 Le premier exercice consiste à réaliser une application permettant de calculer la somme de deux nombres saisis par l'utilisateur. Cela nous a permis de découvrir l'environnement de développement Android Studio, ainsi que les concepts de base du développement d'applications mobiles.
 
-Tp 1 : Calculatrice scientifique
+[Tp 1 : Calculatrice scientifique](https://github.com/HOUD-FatimaEzzahra/Ma-Calculatrice)
 Le premier tp, réalisé le 17 février, consiste à réaliser une calculatrice scientifique. Nous avons ainsi pu nous familiariser avec différents concepts tels que le mode paysage, l'écran de démarrage (splash screen), la création d'événements, l'utilisation des Layouts, etc.
 
-Tp 2 : Concepts de base
+[Tp 2 : Concepts de base](https://github.com/HOUD-FatimaEzzahra/Dev-Mobile/tree/main/TP2Conceptsdebase)
 Le deuxieme tp, réalisé le 24 février, nous a permis de nous familiariser avec d'autres concepts de base tels que l'utilisation des ressources, la création d'applications composites, l'utilisation du fichier string.xml pour une application multilingue et la mise en pratique du cycle d'une activité via la classe Toast.
 
 ## Technologies et outils utilisées
