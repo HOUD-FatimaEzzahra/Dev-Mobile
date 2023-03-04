@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="7">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvsec"
+                android:layout_width="match_parent"
+                android:layout_height="229dp"
+                android:layout_weight="1"
+                android:background="#000"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="#f6f6f6"
+                android:textSize="30sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvmain"
+                android:layout_width="match_parent"
+                android:layout_height="422dp"
+                android:layout_weight="2"
+                android:background="#000"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="#fff"
+                android:textSize="50sp">
+
+            </TextView>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="742dp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+
+                        <Button
+                            android:id="@+id/b1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="."
+                            android:textColor="#fff"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/b2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="."
+                            android:textColor="#fff"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/b3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="."
+                            android:textColor="#fff"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/b4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="c"
+                            android:textColor="#AA336A"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/b5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="( )"
+                            android:textColor="#AA336A"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/b6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="%"
+                            android:textColor="#AA336A"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/bdiv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="/"
+                            android:textColor="#AA336A"
+                            android:textSize="30sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/b8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="."
+                            android:textColor="#fff"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/b9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="."
+                            android:textColor="#fff"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/b10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="."
+                            android:textColor="#fff"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/b11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="7"
+                            android:textColor="#fff"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/b12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="8"
+                            android:textColor="#fff"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/b13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="9"
+                            android:textColor="#fff"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/bmul"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="*"
+                            android:textColor="#AA336A"
+                            android:textSize="30sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+
+                        <Button
+                            android:id="@+id/b15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="."
+                            android:textColor="#fff"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/b16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="."
+                            android:textColor="#fff"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/b17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="."
+                            android:textColor="#fff"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/b18"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="4"
+                            android:textColor="#fff"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/b19"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="5"
+                            android:textColor="#fff"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/b20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="6"
+                            android:textColor="#fff"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/bmin"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="-"
+                            android:textColor="#AA336A"
+                            android:textSize="30sp" />
+
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/b22"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="."
+                            android:textColor="#fff"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/b23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="."
+                            android:textColor="#fff"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/b24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="."
+                            android:textColor="#fff"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/b25"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="1"
+                            android:textColor="#fff"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/b26"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="2"
+                            android:textColor="#fff"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/b27"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="3"
+                            android:textColor="#fff"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/bplus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="+"
+                            android:textColor="#AA336A"
+                            android:textSize="30sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/b29"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="."
+                            android:textColor="#fff"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/b30"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="."
+                            android:textColor="#fff"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/b31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="."
+                            android:textColor="#fff"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/b32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="."
+                            android:textColor="#fff"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/b33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="0"
+                            android:textColor="#fff"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/b34"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="."
+                            android:textColor="#fff"
+                            android:textSize="30sp" />
+
+                        <Button
+                            android:id="@+id/bequal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#000"
+                            android:onClick="ajouterNbr"
+                            android:text="="
+                            android:textColor="#AA336A"
+                            android:textSize="30sp" />
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
