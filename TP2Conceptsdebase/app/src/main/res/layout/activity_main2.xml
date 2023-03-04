@@ -41,7 +41,7 @@
             android:id="@+id/email_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/username   "
+            android:text="@string/username"
             android:textSize="20sp"
             android:textColor="@color/gris"/>
 
@@ -70,7 +70,7 @@
             android:id="@+id/password_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/password   "
+            android:text="@string/password"
             android:textColor="@color/gris"
             android:textSize="20sp" />
 

@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 String password = PasswordTextInput.getEditText().getText().toString();
 
                 Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+                //La méthode putExtra permet de transmettre des données
                 intent.putExtra("email", email);
                 intent.putExtra("password", password);
                 startActivity(intent);

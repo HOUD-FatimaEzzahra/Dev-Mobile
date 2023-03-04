@@ -46,7 +46,7 @@ public class MainActivity2 extends AppCompatActivity {
             }
         });
 
-
+        //getIntent permet de réxupérer des données
         Intent intent = getIntent();
         String email = intent.getStringExtra("email");
         String password = intent.getStringExtra("password");
