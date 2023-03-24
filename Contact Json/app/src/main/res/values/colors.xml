@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#21445B</color>
+    <color name="colorPrimaryDark">#8C1F28</color>
+    <color name="colorAccent">#7B8302</color>
+    <color name="background_color">#FDFAFA</color>
+    <color name="fakhti">#3CA6A6</color>
+
+</resources>

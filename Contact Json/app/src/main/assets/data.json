@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "first_name": "Fatiza",
+      "last_name": "HOUD",
+      "photo": "image1.png",
+      "job": "Mobile App Developer",
+      "email": "f.houd@gmail.com",
+      "phone": "+212 674 293 957"
+    },
+    {
+      "id": 2,
+      "first_name": "Manar",
+      "last_name": "BE",
+      "photo": "image2.png",
+      "job": "Data analyst",
+      "email": "manar.be@gmail.com",
+      "phone": "+212 661 568 712"
+    },
+    {
+      "id": 3,
+      "first_name": "Inass",
+      "last_name": "ALAMi",
+      "photo": "image3.png",
+      "job": "Etudiante",
+      "email": "inassAlami@gmail.com",
+      "phone": "+212 618 312 546"
+    },
+    {
+      "id": 4,
+      "first_name": "Ahmed",
+      "last_name": "AZIZ",
+      "photo": "image4.png",
+      "job": "Master Chef",
+      "email": "bouchouka@gmail.com",
+      "phone": "+212 618 654 532"
+    },
+    {
+      "id": 5,
+      "first_name": "Nabil",
+      "photo": "image1.png",
+      "last_name": "Fikri",
+      "job": "Data Engineer",
+      "email": "n.fikri@gmail.com",
+      "phone": "+212 617 656 538"
+    },
+  {
+    "id": 6,
+    "first_name": "Aymane",
+    "last_name": "AISSAOUI",
+    "photo": "image2.png",
+    "job": "Project Manager",
+    "email": "ayman2001@gmail.com",
+    "phone": "+212 678 654 459"
+  },
+  {
+    "id": 7,
+    "first_name": "Ilyas",
+    "last_name": "MANSOURI",
+    "photo": "image3.png",
+    "job": "Architect",
+    "email": "i.mansouri@gmail.com",
+    "phone": "+212 678 654 459"
+  },
+  {
+    "id": 8,
+    "first_name": "Alae",
+    "last_name": "AFA",
+    "photo": "image4.png",
+    "job": "UI Designer",
+    "email": "a.afa@gmail.com",
+    "phone": "+212 678 654 459"
+  },
+  {
+    "id": 9,
+    "first_name": "Majda",
+    "last_name": "IRAKI",
+    "photo": "image4.png",
+    "job": "Java Developper",
+    "email": "majda@gmail.com",
+    "phone": "+212 678 654 459"
+  },
+  {
+    "id": 10,
+    "first_name": "Zakaria",
+    "last_name": "KEBAJ",
+    "photo": "image4.png",
+    "job": "Architect",
+    "email": "kebaj.z@gmail.com",
+    "phone": "+212 678 654 459"
+  }
+]
+
