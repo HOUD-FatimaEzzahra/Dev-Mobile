@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyContacts</string>
+    <string name="first_name">Prénom</string>
+    <string name="last_name">Nom</string>
+    <string name="email">Email</string>
+    <string name="phone">Téléphone</string>
+    <string name="choose_photo">Choisir une photo</string>
+    <string name="save">Enregistrer</string>
+</resources>
