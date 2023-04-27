@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  <!--  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -15,7 +15,7 @@
             android:id="@+id/contactImage"
             android:layout_width="64dp"
             android:layout_height="64dp"
-            android:src="@drawable/ic_person"
+            android:src="@drawable/ic_launcher_foreground"
             />
 
         <LinearLayout
@@ -47,6 +47,6 @@
                 android:textSize="14sp" />
         </LinearLayout>
 
-    </LinearLayout>
+    </LinearLayout>-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

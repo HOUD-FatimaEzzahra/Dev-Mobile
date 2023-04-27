@@ -30,8 +30,8 @@ public class MainActivity extends AppCompatActivity {
         listView.setAdapter(adapter);
 
         DBHelper dbHelper = new DBHelper(this);
-        dbHelper.addContact(new Contact(0, "John", "Doe", "johndoe@example.com", "555-555-1234", null));
-        dbHelper.addContact(new Contact(0, "Jane", "Doe", "janedoe@example.com", "555-555-5678", null));
+        dbHelper.addContact(new Contact(0, "manar", "badre", "manar@gmail.com", "00000000000", null));
+        dbHelper.addContact(new Contact(0, "fatiza", "houd", "fatiza@houd.com", "00000000000", null));
         contactList.addAll(dbHelper.getAllContacts());
         adapter.notifyDataSetChanged();
 
